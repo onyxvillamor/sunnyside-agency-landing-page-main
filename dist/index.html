@@ -10,15 +10,15 @@
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
 
-  <div class="container max-w-full">
+  <div class="container max-w-full ">
 
     <div class="bg-[url('/images/desktop/image-header.jpg')] h-[95vh] bg-cover bg-center flex flex-col items-center">
       <nav class="min-w-full h-28 flex flex-row justify-between items-center text-white">
-        <h1 id="sunny" class="m-12 text-4xl font-extrabold">
-          sunnyside 
-        </h1>
+        
+          <img src="/images/logo.svg" class="mx-6" >
+       
         <ul class=" flex flex-row mr-10 text-xl font-medium">
           <li class="m-8"><a href="">About</a></li>
           <li class="m-8"><a href="">Services</a></li>
@@ -34,7 +34,7 @@
      <img src="/images/icon-arrow-down.svg" class="h-34 w-10 mt-36">
     </div>
    
-  <div class="grid grid-cols-2 grid-rows-3 min-h-[245vh]">
+  <div class="grid grid-cols-1  grid-rows-3 min-h-[245vh] sm:grid-cols-2">
     <div class="flex flex-col items-center justify-center">
       <div class="w-2/3">
         <h1 class="text-6xl" id="header">
@@ -140,16 +140,16 @@
       </div>
     </div>
   </div>
-  <div class="h-[60vh] grid grid-cols-4">
+  <div class=" grid grid-cols-2 h-[100vh]  sm:h-[60vh] sm:grid-cols-4">
     <div class="bg-[url('/images/desktop/image-gallery-milkbottles.jpg')] h-full bg-cover"></div> 
     <div class="bg-[url('/images/desktop/image-gallery-orange.jpg')] h-full bg-cover"></div>
     <div class="bg-[url('/images/desktop/image-gallery-cone.jpg')] h-full bg-cover"></div>
     <div class="bg-[url('/images/desktop/image-gallery-sugarcubes.jpg')] h-full bg-cover"></div>
   </div>
     <div class="h-[35vh] flex flex-col items-center justify-center" id="footer">
-      <h1 id="sunny" class=" text-2xl font-extrabold opacity-60">
-        sunnyside 
-      </h1>
+      <div id="sunny" class=" text-2xl font-extrabold opacity-60">
+        <img src="/images/logo.svg" class=""> 
+      </div>
       <div class="flex flex-row items-center justify-center mt-8 mb-16 font-medium  opacity-60">
         <a href="" class="mx-5">About</a>
         <a href="" class="mx-5">Services</a>
